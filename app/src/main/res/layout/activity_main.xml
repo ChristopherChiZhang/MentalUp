@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:maxWidth="25px"
-    android:minWidth="10px"
+    android:maxWidth="25dp"
+    android:minWidth="10dp"
     tools:context=".MainActivity"/>
