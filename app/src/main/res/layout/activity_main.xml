@@ -15,4 +15,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="145dp"
+        android:layout_height="31dp"
+        android:text="Switch"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="308dp"
+        tools:visibility="visible" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
