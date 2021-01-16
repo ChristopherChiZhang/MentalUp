@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:maxWidth="25dp"
-    android:minWidth="10dp"
-    tools:context=".MainActivity" />
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="136dp"
+        android:layout_height="53dp"
+        android:text="Dark Mode"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="-1dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
