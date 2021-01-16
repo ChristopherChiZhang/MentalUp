@@ -6,4 +6,4 @@
     android:layout_height="match_parent"
     android:maxWidth="25dp"
     android:minWidth="10dp"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity" />
