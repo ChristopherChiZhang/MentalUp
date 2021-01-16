@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "10455934545",
+    "project_id": "mentalup-2fad0",
+    "storage_bucket": "mentalup-2fad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10455934545:android:9c1409aac00646e7fe7a70",
+        "android_client_info": {
+          "package_name": "com.example.mentalup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10455934545-ugip4mf21bsksl5l5lkfqi9q6i9sda9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mentalup",
+            "certificate_hash": "371c64674eec31fc62407fb731aaac62a010b427"
+          }
+        },
+        {
+          "client_id": "10455934545-ufcruo71p1gfkk0n5kfdu74kb8s69ceh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd6j9rXnnc-XUe5z7IsZgrqVpLkXDUTCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10455934545-ufcruo71p1gfkk0n5kfdu74kb8s69ceh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
