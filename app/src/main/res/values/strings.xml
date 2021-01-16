@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MentalUp</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Sign Up</string>
 </resources>
