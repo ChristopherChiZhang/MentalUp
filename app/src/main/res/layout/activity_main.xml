@@ -10,8 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        tools:layout_editor_absoluteX="-77dp"
-        tools:layout_editor_absoluteY="148dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="84dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -31,6 +31,26 @@
             tools:layout_editor_absoluteX="244dp"
             tools:layout_editor_absoluteY="16dp"
             tools:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="272dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Please Sign Up!"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="142dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
