@@ -13,4 +13,35 @@
         android:text="Dark Mode"
         tools:layout_editor_absoluteX="256dp"
         tools:layout_editor_absoluteY="-1dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password "
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please Sign Up!"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="244dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
