@@ -16,6 +16,9 @@ public class Login extends AppCompatActivity {
     private EditText ePassword;
     private Button eLogin;
 
+    String userName = "";
+    String userPassword = "";
+
     private String Username = "Admin";
     private String Password = "12345678";
     boolean isValid = false;
