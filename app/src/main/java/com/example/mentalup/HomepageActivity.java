@@ -26,7 +26,6 @@ public class HomepageActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         emailID = findViewById(R.id.loginEmail);
         password = findViewById(R.id.loginPassword);
-        signup_button = findViewById(R.id.signup_button);
 
         login_button = findViewById(R.id.buttonlogin);
         login_button.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +42,16 @@ public class HomepageActivity extends AppCompatActivity {
                 toRegisterPage();
             }
         });
+
+        signup_button = findViewById(R.id.signupbutton);
+        /*signup_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String email;
+                String password;
+            }
+        });*/
+        confirmlogin_button = findViewById(R.id.confirmLogin);
 
     }
 
