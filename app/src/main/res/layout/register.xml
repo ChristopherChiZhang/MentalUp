@@ -22,43 +22,67 @@
         android:id="@+id/etFName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
-        android:hint="First Name "
+        android:hint="@string/text_firstname"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/etLName"
-        tools:layout_editor_absoluteX="91dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
         android:id="@+id/etLName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
         android:ems="10"
-        android:hint="Last Name"
+        android:hint="@string/text_lastname"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="446dp" />
+        app:layout_constraintBottom_toTopOf="@+id/etEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFName" />
 
     <EditText
         android:id="@+id/etEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
         android:ems="10"
-        android:hint="Email Address "
+        android:hint="@string/text_email"
         android:inputType="textEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/etLName"
-        tools:layout_editor_absoluteX="91dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLName" />
 
     <EditText
         android:id="@+id/etRPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
         android:ems="10"
-        android:hint="Password "
+        android:hint="@string/text_password"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmail"
-        app:layout_constraintVertical_bias="0.028"
-        tools:layout_editor_absoluteX="91dp" />
+        app:layout_constraintVertical_bias="0.028" />
 
     <Button
         android:id="@+id/button"
