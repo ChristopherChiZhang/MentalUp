@@ -1,5 +1,6 @@
 package com.example.mentalup;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,25 +8,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class HomepageActivity extends AppCompatActivity {
     private Button login_button;
     private Button register_button;
-    private Button signup_button;
-    private Button confirmlogin_button;
-    private EditText emailID, password;
-    private FirebaseAuth mAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
-        mAuth = FirebaseAuth.getInstance();
-        emailID = findViewById(R.id.loginEmail);
-        password = findViewById(R.id.loginPassword);
+
 
         login_button = findViewById(R.id.buttonlogin);
         login_button.setOnClickListener(new View.OnClickListener() {
@@ -42,16 +43,6 @@ public class HomepageActivity extends AppCompatActivity {
                 toRegisterPage();
             }
         });
-
-        signup_button = findViewById(R.id.signupbutton);
-        /*signup_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String email;
-                String password;
-            }
-        });*/
-        confirmlogin_button = findViewById(R.id.confirmLogin);
 
     }
 
