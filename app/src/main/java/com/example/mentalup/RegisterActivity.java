@@ -55,18 +55,10 @@ public class RegisterActivity extends AppCompatActivity {
                 } else if (pwd.isEmpty()) {
                     password.setError("Password cannot be blank.");
                     password.requestFocus();
-                } else if (email.isEmpty() && pwd.isEmpty()) {
-                    Toast.makeText(RegisterActivity.this, "Email address and password are required.", Toast.LENGTH_SHORT).show();
-                } else if (!email.isEmpty() && !pwd.isEmpty()) {
-                    if (true) { //!userExists(email)
+                } else {
                         newUser = new User(firstName.getText().toString().replaceAll("\\s", ""),
                                 lastName.getText().toString().replaceAll("\\s", ""), email.replaceAll("\\s", ""), 0);
                         registerUser(email, pwd);
-                    } else {
-                        Toast.makeText(RegisterActivity.this, "Email account exists.", Toast.LENGTH_SHORT).show();
-                    }
-                } else {
-                    Toast.makeText(RegisterActivity.this, "An error occurred.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
