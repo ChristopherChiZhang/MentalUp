@@ -9,11 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MentalUp">
-        <activity android:name=".RegisterActivity"
-            android:parentActivityName=".HomepageActivity"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".StatisticsActivity" />
+        <activity android:name=".ActivitypageActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".HomepageActivity" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".LoginActivity"
-            android:parentActivityName=".HomepageActivity"/>
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".HomepageActivity" />
         <activity android:name=".HomepageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

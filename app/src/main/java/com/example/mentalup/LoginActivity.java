@@ -72,7 +72,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void toMenupage() {
-        Intent intentBToMenuPage = new Intent(LoginActivity.this, MenuActivity.class);
-        startActivity(intentBToMenuPage);
+        Intent intentToMenuPage = new Intent(LoginActivity.this, MenuActivity.class);
+        startActivity(intentToMenuPage);
     }
 }
